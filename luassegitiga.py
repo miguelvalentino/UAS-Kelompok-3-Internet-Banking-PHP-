@@ -8,3 +8,4 @@ luas = luas_segi3(alas, tinggi)
 print("luas segitiga : %3f" %(luas))
 # pdsdjhdiebdjuesbxcescsedcfdfd
 #JSDPKMMMMMMFLKFJR
+#aksdkaksdjkasndjakhdkwhkakajshdkjahdkkakhdjhawgdjawhgajgfjahgfjwjqwjkhfakjgfajkwhfjah,fhawkjhdjkasmbdajhwdlmwdklhaukhaLjdjkawhdjhakjd
