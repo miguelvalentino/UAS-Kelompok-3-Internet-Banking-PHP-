@@ -13,3 +13,4 @@ print("luas segitiga : %3f" %(luas))
 
 
 #ASHIAPPPPP
+abcd
