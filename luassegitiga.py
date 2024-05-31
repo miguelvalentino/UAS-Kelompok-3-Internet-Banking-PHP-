@@ -9,3 +9,7 @@ print("luas segitiga : %3f" %(luas))
 # pdsdjhdiebdjuesbxcescsedcfdfd
 #JSDPKMMMMMMFLKFJR
 #aksdkaksdjkasndjakhdkwhkakajshdkjahdkkakhdjhawgdjawhgajgfjahgfjwjqwjkhfakjgfajkwhfjah,fhawkjhdjkasmbdajhwdlmwdklhaukhaLjdjkawhdjhakjd
+# lalalalla
+
+
+#ASHIAPPPPP
