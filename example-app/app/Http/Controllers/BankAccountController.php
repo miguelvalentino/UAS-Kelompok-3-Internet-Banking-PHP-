@@ -61,4 +61,25 @@ class BankAccountController extends Controller
     public function requestKartu(){
         return view ('requestkartu');
     }
+
+    public function createdAccount(Request $request){
+        $temp=$request->validate([
+            'id'=>'required',
+            'password'=>'required'
+        ]);
+        if(BankAccountController::findById($temp['id'])!=null){
+            return("error id taken");
+        }
+        return $temp;
+    }
+
+    private function findById($targetId){
+        $bankAccounts=BankAccount::nodatabasedata();
+        foreach($bankAccounts as $bankAccount){
+            if ($targetId==$bankAccount['id']){
+                return $bankAccount;
+            }
+        }
+        return null;
+    }
 }

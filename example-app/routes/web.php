@@ -28,12 +28,10 @@ Route::get('/BankAccount/deposito', [BankAccountController::class ,'deposito']);
 
 Route::get('/BankAccount/requestkartu', [BankAccountController::class ,'requestKartu']);
 
+Route::post('/createdaccount',[BankAccountController::class ,'createdAccount']);
+
 Route::post('/loggedin',function(){
     return "logged in";
-});
-
-Route::post('/created',function(){
-    return "created";
 });
 
 Route::post('/changedpass',function(){
